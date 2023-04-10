@@ -70,54 +70,6 @@ img {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 428px) {
-  .container {
-    width: 426px;
-  }
-
-  .about-list > .container {
-    width: 264px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 766px;
-  }
-
-  .ihfo > .container {
-    width: 738px;
-  }
-
-  .about {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-
-  .hero-main-title {
-    margin-bottom: 72px;
-  }
-
-  /*.about-item {
-    width: calc((100% - 24px) / 2);
-  }*/
-}
-
-@media screen and (min-width: 1158px) {
-  .container {
-    width: 1158px;
-  }
-
-  .ihfo > .container {
-    width: 1158px;
-    width: calc((100% - 72px) / 4);
-  }
-
-  .about-team {
-    width: calc((100% - 72px) / 4);
-  }
-}
-
 /*======================Header===================*/
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -288,10 +240,7 @@ img {
 }
 
 .hero-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
+  display: none;
 }
 
 .info-list {
@@ -316,26 +265,8 @@ img {
   margin-bottom: 8px;
 }
 
-.feature-list {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 8px;
-}
-
-.feature-item {
-  width: 264px;
-  height: 112px;
-}
-
 .feature-link {
-  width: 100%;
-  height: 100%;
-  background-color: brown;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f4f4fd;
-  border-radius: 4px;
+  display: none;
 }
 
 .about-work {

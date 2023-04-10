@@ -1,6 +1,6 @@
 @media screen and (min-width: 428px) {
   .container {
-    width: 428px;
+    max-width: 428px;
   }
 
   .about-list > .container {
@@ -25,17 +25,20 @@
     margin-right: 16px;}
 
     .сustomers {
-        width: 396px;
+    width: 396px;}
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 720px;
+    max-width: 720px;
   }
 
   .ihfo > .container {
     width: 738px;
   }
+
+  .about-list > .container {
+    width: 264px;
 
   .about {
     padding-top: 96px;
@@ -57,9 +60,9 @@
     width: calc((100% - 24px) / 2);
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
   }
 
   .ihfo > .container {

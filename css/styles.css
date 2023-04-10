@@ -309,9 +309,6 @@ img {
 .about-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
-  width: 264px;
-  margin: 82px;
   justify-content: center;
 }
 
@@ -372,8 +369,8 @@ img {
   position: relative;
   background-color: #ffffff;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .сustomers-logo {

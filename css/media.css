@@ -7,12 +7,25 @@
     width: 264px;
   }
 
+  .about-list {
+  gap: 72px;
+    margin: 82px;
+  justify-content: center;
+}
+
   .hero-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
   }
+
+  .team-soc-list {
+  margin-left: 16px;
+    margin-right: 16px;}
+
+    .сustomers {
+        width: 396px;
 }
 
 @media screen and (min-width: 768px) {
@@ -40,9 +53,8 @@
     gap: 24px;
   }
 
-  /*.about-item {
+  .about-item {
     width: calc((100% - 24px) / 2);
-  }*/
 }
 
 @media screen and (min-width: 1158px) {

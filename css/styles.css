@@ -37,7 +37,7 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -79,6 +79,12 @@ img {
 @media screen and (min-width: 768px) {
   container-res {
     background-color: #2a0a2b;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  container-res {
+    background-color: #ca03b0;
   }
 }
 
@@ -319,13 +325,14 @@ img {
 
 .about-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
   justify-content: space-between;
 }
 
 .about-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   background-color: #f4f4fd;
 }
 

@@ -46,6 +46,10 @@
   color: #2e2f42;
 }
 
+.contact {
+  margin: 0px 12px;
+}
+
 .header-link {
   display: block;
   font-weight: 500;

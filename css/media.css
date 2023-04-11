@@ -27,7 +27,7 @@ height: 80px;}
 .modal-btn {
 
 
-  .hero-list {
+.hero-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -52,7 +52,7 @@ height: 80px;}
   }
 
   .about-list > .container {
-    width: 264px;
+    width: 264px;}
 
   .about {
     padding-top: 96px;
@@ -74,6 +74,19 @@ height: 436px;
 width: 768px;
 height: 436px;}
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Hero-bg-tab-2px.png);
+  }
+}
+
+
     .hero-top-title {
 font-size: 56px;
   line-height: 1.07;
@@ -90,7 +103,7 @@ font-size: 56px;
   .about-item {
     width: calc((100% - 24px) / 2);
 }
-
+}
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1158px;
@@ -113,6 +126,18 @@ font-size: 56px;
     url(../images/hero-bg.jpg);
 width: 1440px;
 height: 600px;}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Hero-bg-2px.jpg);
+  }
+}
 
   .hero-list {
     display: flex;

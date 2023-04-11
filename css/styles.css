@@ -82,7 +82,7 @@ img {
 }
 
 .header-container {
-  display: flex;
+  display: none;
 }
 
 .site-nav {

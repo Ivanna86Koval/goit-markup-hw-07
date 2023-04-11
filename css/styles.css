@@ -184,19 +184,17 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/Hero-bg-mob.png);
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
-  max-width: 1440px;
-  height: 600px;
   padding: 112px 54px 240px;
 }
 
 .hero-top-title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+  font-size: 56px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
@@ -205,6 +203,8 @@ img {
   margin-bottom: 72px;
   max-width: 496px;
   height: 120px;
+  left: 472px;
+  top: 260px;
 }
 
 .modal-btn {

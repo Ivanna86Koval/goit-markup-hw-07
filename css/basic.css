@@ -627,8 +627,3 @@ address {
 .team-soc-icon {
   fill: currentColor;
 }
-.team-soc-link:hover {
-  background-color: #404bbf;
-  color: #ffffff;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), linear;
-}

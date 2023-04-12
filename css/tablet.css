@@ -67,79 +67,8 @@
   align-items: center;
 }
 
-.mob-menu-open-btn {
-  background-color: transparent;
-  margin-left: auto;
-  border: none;
-}
-
-.mob-menu-icon {
-  stroke: #2e2f42;
-}
-
-.menu-container {
-  display: none;
-}
-
-.mob-menu-close-btn {
-  display: none;
-}
-
 .mobile {
   display: none;
-}
-
-.mob-menu-link {
-  display: block;
-  color: #2e2f42;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  margin-bottom: 40px;
-}
-
-.link-current {
-  color: #404bbf;
-}
-
-.mob-menu-tel {
-  display: block;
-  color: #4d5ae5;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  margin-top: 284px;
-  margin-bottom: 40px;
-}
-
-.mob-menu-meil {
-  display: block;
-  color: #434455;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  margin-bottom: 48px;
-}
-
-.mob-menu-soc {
-  display: flex;
-  gap: 56px;
-}
-
-.soc-media-link {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #4d5ae5;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu-container.is-open {
-  transform: translateX(0);
 }
 
 /*======================Hero=====================*/

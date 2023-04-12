@@ -1,21 +1,13 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1158px) {
   .container {
-    max-width: 768px;
-  }
-
-  .container {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1158px;
   }
 
   /*======================Header===================*/
 
   .header {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .site-nav {
@@ -26,32 +18,8 @@
     display: block;
   }
 
-  .header-list {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    margin-right: 121px;
-  }
-
-  .header-link.current {
-    color: #404bbf;
-  }
-
-  .current::after {
-    position: absolute;
-    content: "";
-    display: block;
-    width: 48px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #404bbf;
-    top: 68px;
-  }
-
   .logo-link {
-    margin-right: 120px;
+    margin-right: 78px;
   }
 
   .contact {
@@ -59,28 +27,17 @@
   }
 
   .mail {
-    display: block;
+    display: inline;
     margin-bottom: 12px;
   }
 
-  .contact-item {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #434455;
+  .contact-list {
+    display: flex;
+    gap: 40px;
   }
-
-  .mobile {
-    display: none;
+  .current::after {
+    top: 70px;
   }
-
-  .menu-container {
-    display: none;
-  }
-
-  /*======================Hero=====================*/
-
   .hero {
     background-repeat: no-repeat;
     background-position: center;
@@ -113,16 +70,19 @@
   }
 
   .hero-top-title {
-    font-size: 56px;
-    line-height: 1.07;
+    color: var(--main-title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     margin: 0 auto 72px;
-    max-width: 496px;
+    max-width: 320px;
+    text-transform: capitalize;
   }
 
   .modal {
     width: 408px;
-    height: 586px;
+    height: 584px;
   }
 }

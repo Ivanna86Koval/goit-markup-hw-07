@@ -3,3 +3,7 @@
     max-width: 428px;
   }
 }
+
+.hero-top-title {
+  text-transform: capitalize;
+}

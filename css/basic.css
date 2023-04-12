@@ -278,6 +278,7 @@ address {
   display: block;
   margin: 0 auto;
 }
+
 .modal-btn:hover,
 .modal-btn:focus {
   color: #ffffff;

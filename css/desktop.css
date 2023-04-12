@@ -144,4 +144,22 @@
   .team-list {
     flex-wrap: nowrap;
   }
+
+  /*======================Customers=====================*/
+
+  .сustomers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .сustomers-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .customers-item {
+    width: 168px;
+  }
 }

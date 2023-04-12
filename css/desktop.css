@@ -41,20 +41,12 @@
   .hero {
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 auto;
-    padding: 112px 54px 240px;
-    text-align: center;
     background-color: #2e2f42;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg.jpg;)
-    padding-top: 112px;
-    padding-bottom: 112px;
-    background-size: cover;
-    max-width: 767px;
-    margin: 0 auto;
+      url(../images/hero-bg.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -67,9 +59,6 @@
         ),
         url(../images/Hero-bg-2px.jpg);
     }
-  }
-
-  .hero-top-title {
   }
 
   .modal {

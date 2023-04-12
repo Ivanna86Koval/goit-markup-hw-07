@@ -499,10 +499,6 @@ address {
   margin-bottom: 72px;
 }
 
-/*.info-list {
-  width: calc((100% - 72px) / 4);
-}*/
-
 .hero-second-title {
   font-weight: 700;
   font-size: 36px;
@@ -538,3 +534,11 @@ address {
   background-color: #f4f4fd;
   border-radius: 4px;
 }
+
+/*==================What are we doing============*/
+
+.about-work {
+  display: none;
+}
+
+/*=====================Our Team==================*/

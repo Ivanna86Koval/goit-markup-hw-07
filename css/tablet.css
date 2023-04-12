@@ -134,4 +134,10 @@
   .hero-second-title {
     text-align: start;
   }
+
+  /*==================What are we doing============*/
+
+  .about-work {
+    display: none;
+  }
 }

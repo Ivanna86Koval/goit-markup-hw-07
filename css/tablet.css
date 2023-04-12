@@ -115,13 +115,14 @@
 
   /*==========================About============================*/
   .about {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .hero-list {
-    display: block;
-    text-align: center;
+    display: flex;
+    width: 736px;
+    flex-wrap: wrap;
   }
 
   .feature-item {

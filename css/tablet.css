@@ -127,38 +127,19 @@
     row-gap: 72px;
   }
 
-  .feature-item {
-    height: 112px;
-    margin-bottom: 72px;
-  }
-
   .info-list {
     width: calc((100% - 24px) / 2);
   }
 
   .hero-second-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    margin-bottom: 8px;
-    color: #2e2f42;
-    margin-bottom: 8px;
+    text-align: start;
   }
 
   .section-description {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    width: 396px;
-    height: 48px;
-    text-align: justify;
+    text-align: start;
   }
 
   .feature-list {
-    justify-content: center;
-    margin-bottom: 8px;
   }
 
   .feature-link {

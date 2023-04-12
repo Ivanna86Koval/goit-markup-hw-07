@@ -179,7 +179,7 @@ address {
 
 .mob-menu-tel {
   display: block;
-  color: #4d5ae5;
+  color: #434455;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -230,11 +230,8 @@ address {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/Hero-bg-mob.png);
-  padding-top: 112px;
-  padding-bottom: 112px;
   background-size: cover;
   max-width: 767px;
-  margin: 0 auto;
 }
 
 @media (min-device-pixel-ratio: 2),

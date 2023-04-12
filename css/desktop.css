@@ -65,4 +65,34 @@
     width: 408px;
     height: 584px;
   }
+
+  /*==========================About============================*/
+  .about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .hero-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .info-list {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .hero-second-title {
+    font-weight: 500;
+    text-align: start;
+  }
+
+  .section-description {
+  font-weight: 400;
+  }
+
+  .feature-link {
+   display: flex;
+
 }

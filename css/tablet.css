@@ -121,8 +121,10 @@
 
   .hero-list {
     display: flex;
-    width: 736px;
+    flex-direction: row;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
   }
 
   .feature-item {
@@ -130,9 +132,9 @@
     margin-bottom: 72px;
   }
 
-  /*.info-list {
-  width: calc((100% - 72px) / 4);
-}*/
+  .info-list {
+    width: calc((100% - 24px) / 2);
+  }
 
   .hero-second-title {
     font-weight: 700;

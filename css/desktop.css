@@ -49,7 +49,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Hero-bg-mob.png);
+      url(../images/hero-bg.jpg;)
     padding-top: 112px;
     padding-bottom: 112px;
     background-size: cover;
@@ -65,20 +65,11 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/Hero-bg-mob-2px.png);
+        url(../images/Hero-bg-2px.jpg);
     }
   }
 
   .hero-top-title {
-    color: var(--main-title-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    margin: 0 auto 72px;
-    max-width: 320px;
-    text-transform: capitalize;
   }
 
   .modal {

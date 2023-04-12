@@ -82,10 +82,11 @@
   /*======================Hero=====================*/
 
   .hero {
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto;
-    padding: 112px 136px 204px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Hero-bg-tab.png);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -96,8 +97,15 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/Hero-bg-mob-2px.png);
+        url(../images/Hero-bg-tab-2px.png);
     }
+  }
+
+  .hero-top-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin: 0 auto 72px;
+    max-width: 496px;
   }
 
   .modal {

@@ -178,7 +178,8 @@
   }
 
   .footer-wrap {
-    padding: 0 15px;
+    display: flex;
+    padding: 0;
     justify-content: space-between;
   }
 }

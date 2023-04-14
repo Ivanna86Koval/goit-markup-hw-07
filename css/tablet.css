@@ -173,8 +173,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 24px;
     row-gap: 72px;
+    column-gap: 24px;
     align-items: flex-start;
   }
 
@@ -189,27 +189,35 @@
   }
 
   .social-nav {
-    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 132px;
   }
 
   .social-text {
     justify-content: flex-start;
-  }
-
-  /*.footer-text {
-    margin-bottom: 72px;
-  }
-
-  .footer-component {
-    justify-content: flex-start;
-  }
-
-  .component-btn-input {
     margin-top: 0;
   }
 
-  .logo-link {
-    margin: 0;
+  .footer-component {
+    padding-bottom: 0;
   }
+
+  .component-form {
+    margin-top: 16px;
+  }
+
+  .component-btn-input {
+    margin-left: 24px;
+  }
+
+  .component-input {
+    width: 264px;
+    margin-bottom: 0;
+  }
+
+  .component-btn {
+    margin-top: 0;
+  }
+
   /*======*/
 }

@@ -299,13 +299,14 @@ address {
 
 .modal {
   position: absolute;
-  width: 392px;
-  height: 586px;
-  background-color: #fcfcfc;
-  top: 50%;
+  padding: 0 24px;
+  padding-top: 72px;
+    top: 55%;
   left: 50%;
-  padding: 24px 16px;
-  overflow-y: scroll;
+  max-width: 392px;
+  width: calc(100% - 36px);
+  background-color: #fcfcfc;
+   overflow-y: scroll;
   transform: translate(-50%, -50%) scale(1) rotateY(0);
   opacity: 1;
   transition: transform 500ms linear 200ms, opacity 700ms linear;
@@ -316,10 +317,12 @@ address {
   margin-left: auto;
   width: 24px;
   height: 24px;
+      position: absolute;
+    top: 24px;
+    right: 24px;
   border-radius: 50%;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: #000000;
@@ -354,11 +357,8 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 360px;
-  height: 24px;
   text-align: center;
   color: #2e2f42;
-  margin-top: 24px;
   margin-bottom: 16px;
 }
 
@@ -434,13 +434,13 @@ address {
 }
 
 .check-text {
+    display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 .check-text span {
@@ -494,7 +494,6 @@ address {
 }
 
 .feature-item {
-  height: 112px;
   margin-bottom: 72px;
 }
 
@@ -698,11 +697,10 @@ address {
 }
 
 .footer-wrap {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   align-items: center;
-  margin-bottom: 72px;
-}
+ }
 
 .logo-footer {
   display: flex;
@@ -717,7 +715,7 @@ address {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: #e7e9fc;
-  margin-bottom: 72px;
+  margin-top: 16px;
   max-width: 264px;
 }
 
@@ -727,7 +725,8 @@ address {
 
 .social-nav {
   align-items: center;
-  padding-bottom: 132px;
+  margin-top: 72px;
+  /*padding-bottom: 132px;*/1
 }
 
 .social-text {
@@ -735,16 +734,15 @@ address {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 16px;
   letter-spacing: 0.02em;
   color: #ffffff;
   display: flex;
   justify-content: center;
+   margin-top: 72px;
 }
 
 .component-form {
-  display: flex;
-  justify-content: center;
+   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 24px;
@@ -755,6 +753,7 @@ address {
   justify-content: center;
   align-items: center;
   gap: 16px;
+  margin-top: 16px;
 }
 
 .footer-soc-item {
@@ -793,6 +792,7 @@ address {
 
 .component-field {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .component-input {
@@ -800,9 +800,8 @@ address {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
-  width: 264px;
+  width: 398px;
   height: 40px;
-  margin-right: 24px;
   color: #f4f4fd;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -812,6 +811,7 @@ address {
   width: 165px;
   height: 40px;
   padding: 8px 24px;
+  margin: 0 auto;
   background-color: #4d5ae5;
   border-radius: 4px;
   border: transparent;
@@ -822,10 +822,12 @@ address {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  margin-top: 16px;
-  margin-left: 24px;
   color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.component-btn{
+ margin-top: 16px;
 }
 
 .component-icon {

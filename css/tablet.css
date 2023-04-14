@@ -24,7 +24,6 @@
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
-    margin-right: 121px;
   }
 
   .header-link.current {
@@ -47,7 +46,6 @@
   }
 
   .contact {
-    margin: 0px 12px;
     color: inherit;
   }
 
@@ -109,8 +107,8 @@
 
   /*==========================About============================*/
   .about {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .hero-list {

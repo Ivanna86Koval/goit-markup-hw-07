@@ -163,29 +163,22 @@
   }
 
   .сustomers-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 120px;
-    height: 88px;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    color: #8e8f99;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 168px;
   }
 
   /*======================footer=====================*/
+  .footer {
+    padding: 100px 0 0;
+  }
 
   .footer-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.33;
-    letter-spacing: 0.02em;
-    color: #e7e9fc;
     display: flex;
     max-width: 264px;
     margin-top: 16px;
+  }
+
+  .footer-wrap {
+    padding: 0 15px;
+    justify-content: space-between;
   }
 }

@@ -22,13 +22,19 @@
     margin-right: 78px;
   }
 
+  .contact-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
   .contact {
-    margin: 0px 12px;
+    margin: 0px;
   }
 
   .mail {
     display: inline;
-    margin-bottom: 12px;
+    margin: 0px;
   }
 
   .contact-list {
@@ -180,7 +186,8 @@
 
   /*======================footer=====================*/
   .footer {
-    padding: 100px 0 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .footer-text {
@@ -189,9 +196,16 @@
     margin-top: 16px;
   }
 
+  .footer-section {
+    margin-right: 120px;
+  }
+
   .footer-wrap {
-    display: flex;
-    padding: 0;
-    justify-content: space-between;
+    width: 100%;
+    gap: 0;
+  }
+
+  .social-nav {
+    margin-right: auto;
   }
 }
